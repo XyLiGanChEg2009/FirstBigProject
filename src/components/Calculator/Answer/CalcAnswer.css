@@ -1,0 +1,11 @@
+.calcAnswerContent{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.calcAnswer{
+    text-align: center;
+    height: 45px;
+    background-color: white;
+}

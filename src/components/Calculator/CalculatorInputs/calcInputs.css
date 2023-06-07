@@ -1,0 +1,12 @@
+.calc-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.calc-inputs textarea{
+    text-align: center;
+    height: 50px;
+    margin: 10px;
+}

@@ -1,0 +1,32 @@
+.Graph2dUI{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.Graph2dUI > button {
+    border-radius: 100%;
+    border: 1px solid black;
+    background-color: #597481;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.funcsMenu{
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 1px 0 0 1px;
+    background-color: #9370D8;
+    width: 400px;
+    height: 800px;
+    max-height: 800px;
+}
+
+.funcsMenu.active{
+    
+}

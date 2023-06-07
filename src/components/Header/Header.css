@@ -1,0 +1,28 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.header-buttons{
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: solid 2px #3d4950;
+    border-radius: 5px;
+    width: 200px;
+    height: 50%;
+    line-height: 25px;
+    background-color: #597481;
+    color: rgb(237, 237, 237);
+}
+
+.header-buttons:hover{
+    background-color: #526b77;
+    transition: 1s;
+    transform: scale(1.02);
+}
